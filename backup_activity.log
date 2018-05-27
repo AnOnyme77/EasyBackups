@@ -1,0 +1,281 @@
+2018-05-27 20:55:29,604 :: INFO :: Running backup task
+2018-05-27 20:55:29,605 :: ERROR :: Cannot backup parser.py to lol5.py because source does not exist
+2018-05-27 20:59:57,519 :: INFO :: Running backup task
+2018-05-27 20:59:57,520 :: ERROR :: Cannot backup parser.py to lol5.py because source does not exist
+2018-05-27 21:03:48,404 :: INFO :: Running backup task
+2018-05-27 21:03:48,405 :: INFO :: Backuping daemon.py to laurent.py
+2018-05-27 21:03:48,405 :: DEBUG :: Copying daemon.py file to laurent.py
+2018-05-27 21:03:48,406 :: DEBUG :: Copy of daemon.py to laurent.py done
+2018-05-27 21:06:13,314 :: INFO :: Running backup task
+2018-05-27 21:06:13,314 :: INFO :: Backuping daemon.py to backupDir/laurent.py
+2018-05-27 21:06:13,314 :: DEBUG :: Copying daemon.py file to backupDir/laurent.py
+2018-05-27 21:06:13,318 :: DEBUG :: Copy of daemon.py to backupDir/laurent.py done
+2018-05-27 21:06:13,318 :: INFO :: Running backup task
+2018-05-27 21:06:13,318 :: INFO :: Backuping test to backupDir/test
+2018-05-27 21:06:13,318 :: DEBUG :: test is a directory
+2018-05-27 21:06:13,318 :: DEBUG :: Copying test directory to backupDir/test
+2018-05-27 21:06:13,319 :: DEBUG :: Copy of test to backupDir/test done
+2018-05-27 21:11:26,256 :: INFO :: Running backup task
+2018-05-27 21:11:26,259 :: INFO :: Backuping logger.py to backupDir/logger.py every minute
+2018-05-27 21:11:26,259 :: DEBUG :: Copying logger.py file to backupDir/logger.py every minute
+2018-05-27 21:11:26,261 :: DEBUG :: Copy of logger.py to backupDir/logger.py every minute done
+2018-05-27 21:11:26,261 :: INFO :: Running backup task
+2018-05-27 21:11:26,261 :: INFO :: Backuping test_direct_backup.eb to backupDir/direct_backup.eb every hour
+2018-05-27 21:11:26,261 :: DEBUG :: Copying test_direct_backup.eb file to backupDir/direct_backup.eb every hour
+2018-05-27 21:11:26,262 :: DEBUG :: Copy of test_direct_backup.eb to backupDir/direct_backup.eb every hour done
+2018-05-27 21:11:26,262 :: INFO :: Running backup task
+2018-05-27 21:11:26,262 :: INFO :: Backuping test_repeting_backup.eb to backupDir/repeting_backup.eb every 2 minutes
+2018-05-27 21:11:26,262 :: DEBUG :: Copying test_repeting_backup.eb file to backupDir/repeting_backup.eb every 2 minutes
+2018-05-27 21:11:26,263 :: DEBUG :: Copy of test_repeting_backup.eb to backupDir/repeting_backup.eb every 2 minutes done
+2018-05-27 21:12:33,176 :: INFO :: Registering backup task with time condition
+2018-05-27 21:12:33,176 :: INFO :: Registering backup task with time condition
+2018-05-27 21:12:33,177 :: INFO :: Registering backup task with time condition
+2018-05-27 21:12:33,178 :: INFO :: Backuping logger.py to backupDir/logger.py
+2018-05-27 21:12:33,178 :: DEBUG :: Copying logger.py file to backupDir/logger.py
+2018-05-27 21:12:33,179 :: DEBUG :: Copy of logger.py to backupDir/logger.py done
+2018-05-27 21:12:33,179 :: INFO :: Backuping test_direct_backup.eb to backupDir/direct_backup.eb
+2018-05-27 21:12:33,179 :: DEBUG :: Copying test_direct_backup.eb file to backupDir/direct_backup.eb
+2018-05-27 21:12:33,180 :: DEBUG :: Copy of test_direct_backup.eb to backupDir/direct_backup.eb done
+2018-05-27 21:12:33,180 :: INFO :: Backuping test_repeting_backup.eb to backupDir/repeting_backup.eb
+2018-05-27 21:12:33,180 :: DEBUG :: Copying test_repeting_backup.eb file to backupDir/repeting_backup.eb
+2018-05-27 21:12:33,181 :: DEBUG :: Copy of test_repeting_backup.eb to backupDir/repeting_backup.eb done
+2018-05-27 21:12:33,181 :: INFO :: Sleeping for a minute
+2018-05-27 21:13:33,184 :: INFO :: Backuping logger.py to backupDir/logger.py
+2018-05-27 21:13:33,184 :: DEBUG :: Copying logger.py file to backupDir/logger.py
+2018-05-27 21:13:33,188 :: DEBUG :: Copy of logger.py to backupDir/logger.py done
+2018-05-27 21:13:33,188 :: INFO :: Sleeping for a minute
+2018-05-27 21:14:33,192 :: INFO :: Backuping logger.py to backupDir/logger.py
+2018-05-27 21:14:33,192 :: DEBUG :: Copying logger.py file to backupDir/logger.py
+2018-05-27 21:14:33,194 :: DEBUG :: Copy of logger.py to backupDir/logger.py done
+2018-05-27 21:14:33,194 :: INFO :: Backuping test_repeting_backup.eb to backupDir/repeting_backup.eb
+2018-05-27 21:14:33,194 :: DEBUG :: Copying test_repeting_backup.eb file to backupDir/repeting_backup.eb
+2018-05-27 21:14:33,195 :: DEBUG :: Copy of test_repeting_backup.eb to backupDir/repeting_backup.eb done
+2018-05-27 21:14:33,195 :: INFO :: Sleeping for a minute
+2018-05-27 21:15:33,194 :: INFO :: Backuping logger.py to backupDir/logger.py
+2018-05-27 21:15:33,195 :: DEBUG :: Copying logger.py file to backupDir/logger.py
+2018-05-27 21:15:33,199 :: DEBUG :: Copy of logger.py to backupDir/logger.py done
+2018-05-27 21:15:33,199 :: INFO :: Sleeping for a minute
+2018-05-27 21:15:41,573 :: INFO :: Starting daemon
+2018-05-27 21:15:41,901 :: INFO :: Registering backup task with time condition
+2018-05-27 21:15:41,902 :: INFO :: Registering backup task with time condition
+2018-05-27 21:15:41,903 :: INFO :: Registering backup task with time condition
+2018-05-27 21:15:41,904 :: INFO :: Backuping logger.py to backupDir/logger.py
+2018-05-27 21:15:41,905 :: DEBUG :: Copying logger.py file to backupDir/logger.py
+2018-05-27 21:15:41,906 :: DEBUG :: Copy of logger.py to backupDir/logger.py done
+2018-05-27 21:15:41,907 :: INFO :: Backuping test_direct_backup.eb to backupDir/direct_backup.eb
+2018-05-27 21:15:41,907 :: DEBUG :: Copying test_direct_backup.eb file to backupDir/direct_backup.eb
+2018-05-27 21:15:41,909 :: DEBUG :: Copy of test_direct_backup.eb to backupDir/direct_backup.eb done
+2018-05-27 21:15:41,909 :: INFO :: Backuping test_repeting_backup.eb to backupDir/repeting_backup.eb
+2018-05-27 21:15:41,910 :: DEBUG :: Copying test_repeting_backup.eb file to backupDir/repeting_backup.eb
+2018-05-27 21:15:41,911 :: DEBUG :: Copy of test_repeting_backup.eb to backupDir/repeting_backup.eb done
+2018-05-27 21:15:41,911 :: INFO :: Sleeping for a minute
+2018-05-27 21:16:41,912 :: INFO :: Backuping logger.py to backupDir/logger.py
+2018-05-27 21:16:41,914 :: DEBUG :: Copying logger.py file to backupDir/logger.py
+2018-05-27 21:16:41,916 :: DEBUG :: Copy of logger.py to backupDir/logger.py done
+2018-05-27 21:16:41,917 :: INFO :: Sleeping for a minute
+2018-05-27 21:16:51,191 :: INFO :: Stopping daemon
+2018-05-27 21:16:58,712 :: INFO :: Starting daemon
+2018-05-27 21:16:59,071 :: INFO :: Registering backup task with time condition
+2018-05-27 21:16:59,073 :: INFO :: Registering backup task with time condition
+2018-05-27 21:16:59,074 :: INFO :: Registering backup task with time condition
+2018-05-27 21:16:59,075 :: INFO :: Backuping logger.py to backupDir/logger.py
+2018-05-27 21:16:59,076 :: DEBUG :: Copying logger.py file to backupDir/logger.py
+2018-05-27 21:16:59,081 :: DEBUG :: Copy of logger.py to backupDir/logger.py done
+2018-05-27 21:16:59,081 :: INFO :: Backuping test_direct_backup.eb to backupDir/direct_backup.eb
+2018-05-27 21:16:59,082 :: DEBUG :: Copying test_direct_backup.eb file to backupDir/direct_backup.eb
+2018-05-27 21:16:59,084 :: DEBUG :: Copy of test_direct_backup.eb to backupDir/direct_backup.eb done
+2018-05-27 21:16:59,084 :: INFO :: Backuping test_repeting_backup.eb to backupDir/repeting_backup.eb
+2018-05-27 21:16:59,085 :: DEBUG :: Copying test_repeting_backup.eb file to backupDir/repeting_backup.eb
+2018-05-27 21:16:59,086 :: DEBUG :: Copy of test_repeting_backup.eb to backupDir/repeting_backup.eb done
+2018-05-27 21:16:59,087 :: INFO :: Sleeping for a minute
+2018-05-27 21:17:35,987 :: INFO :: Stopping daemon
+2018-05-27 21:20:18,332 :: INFO :: Registering backup task with time condition
+2018-05-27 21:20:18,335 :: INFO :: Registering backup task with time condition
+2018-05-27 21:20:18,336 :: INFO :: Registering backup task with time condition
+2018-05-27 21:20:18,336 :: INFO :: Backuping logger.py to backupDir/logger.py
+2018-05-27 21:20:18,336 :: DEBUG :: Copying logger.py file to backupDir/logger.py
+2018-05-27 21:20:18,337 :: DEBUG :: Copy of logger.py to backupDir/logger.py done
+2018-05-27 21:20:18,337 :: INFO :: Backuping test_direct_backup.eb to backupDir/direct_backup.eb
+2018-05-27 21:20:18,337 :: DEBUG :: Copying test_direct_backup.eb file to backupDir/direct_backup.eb
+2018-05-27 21:20:18,338 :: DEBUG :: Copy of test_direct_backup.eb to backupDir/direct_backup.eb done
+2018-05-27 21:20:18,338 :: INFO :: Backuping test_repeting_backup.eb to backupDir/repeting_backup.eb
+2018-05-27 21:20:18,338 :: DEBUG :: Copying test_repeting_backup.eb file to backupDir/repeting_backup.eb
+2018-05-27 21:20:18,339 :: DEBUG :: Copy of test_repeting_backup.eb to backupDir/repeting_backup.eb done
+2018-05-27 21:20:18,339 :: INFO :: Sleeping for a minute
+2018-05-27 21:20:43,283 :: INFO :: Starting daemon
+2018-05-27 21:20:43,627 :: INFO :: Registering backup task with time condition
+2018-05-27 21:20:43,630 :: INFO :: Registering backup task with time condition
+2018-05-27 21:20:43,631 :: INFO :: Registering backup task with time condition
+2018-05-27 21:20:43,633 :: INFO :: Backuping logger.py to backupDir/logger.py
+2018-05-27 21:20:43,634 :: DEBUG :: Copying logger.py file to backupDir/logger.py
+2018-05-27 21:20:43,636 :: DEBUG :: Copy of logger.py to backupDir/logger.py done
+2018-05-27 21:20:43,637 :: INFO :: Backuping test_direct_backup.eb to backupDir/direct_backup.eb
+2018-05-27 21:20:43,637 :: DEBUG :: Copying test_direct_backup.eb file to backupDir/direct_backup.eb
+2018-05-27 21:20:43,639 :: DEBUG :: Copy of test_direct_backup.eb to backupDir/direct_backup.eb done
+2018-05-27 21:20:43,640 :: INFO :: Backuping test_repeting_backup.eb to backupDir/repeting_backup.eb
+2018-05-27 21:20:43,641 :: DEBUG :: Copying test_repeting_backup.eb file to backupDir/repeting_backup.eb
+2018-05-27 21:20:43,642 :: DEBUG :: Copy of test_repeting_backup.eb to backupDir/repeting_backup.eb done
+2018-05-27 21:20:43,642 :: INFO :: Sleeping for a minute
+2018-05-27 21:20:52,447 :: INFO :: Stopping daemon
+2018-05-27 21:25:38,343 :: INFO :: Starting daemon
+2018-05-27 21:25:38,713 :: INFO :: Registering backup task with time condition
+2018-05-27 21:25:38,713 :: INFO :: Registering backup task with time condition
+2018-05-27 21:25:52,511 :: INFO :: Stopping daemon
+2018-05-27 21:26:28,514 :: INFO :: Starting daemon
+2018-05-27 21:26:28,872 :: INFO :: Registering backup task with time condition
+2018-05-27 21:26:28,872 :: INFO :: Registering backup task with time condition
+2018-05-27 21:26:28,873 :: INFO :: Registering backup task with time condition
+2018-05-27 21:26:28,873 :: INFO :: Registering backup task with time condition
+2018-05-27 21:26:28,875 :: INFO :: Registering backup task with time condition
+2018-05-27 21:26:28,875 :: INFO :: Registering backup task with time condition
+2018-05-27 21:26:28,879 :: INFO :: Backuping logger.py to backupDir/logger.py
+2018-05-27 21:26:28,879 :: INFO :: Backuping logger.py to backupDir/logger.py
+2018-05-27 21:26:28,881 :: DEBUG :: Copying logger.py file to backupDir/logger.py
+2018-05-27 21:26:28,881 :: DEBUG :: Copying logger.py file to backupDir/logger.py
+2018-05-27 21:26:28,883 :: DEBUG :: Copy of logger.py to backupDir/logger.py done
+2018-05-27 21:26:28,883 :: DEBUG :: Copy of logger.py to backupDir/logger.py done
+2018-05-27 21:26:28,884 :: INFO :: Backuping test_direct_backup.eb to backupDir/direct_backup.eb
+2018-05-27 21:26:28,884 :: INFO :: Backuping test_direct_backup.eb to backupDir/direct_backup.eb
+2018-05-27 21:26:28,885 :: DEBUG :: Copying test_direct_backup.eb file to backupDir/direct_backup.eb
+2018-05-27 21:26:28,885 :: DEBUG :: Copying test_direct_backup.eb file to backupDir/direct_backup.eb
+2018-05-27 21:26:28,887 :: DEBUG :: Copy of test_direct_backup.eb to backupDir/direct_backup.eb done
+2018-05-27 21:26:28,887 :: DEBUG :: Copy of test_direct_backup.eb to backupDir/direct_backup.eb done
+2018-05-27 21:26:28,888 :: INFO :: Backuping test_repeting_backup.eb to backupDir/repeting_backup.eb
+2018-05-27 21:26:28,888 :: INFO :: Backuping test_repeting_backup.eb to backupDir/repeting_backup.eb
+2018-05-27 21:26:28,890 :: DEBUG :: Copying test_repeting_backup.eb file to backupDir/repeting_backup.eb
+2018-05-27 21:26:28,890 :: DEBUG :: Copying test_repeting_backup.eb file to backupDir/repeting_backup.eb
+2018-05-27 21:26:28,892 :: DEBUG :: Copy of test_repeting_backup.eb to backupDir/repeting_backup.eb done
+2018-05-27 21:26:28,892 :: DEBUG :: Copy of test_repeting_backup.eb to backupDir/repeting_backup.eb done
+2018-05-27 21:26:28,895 :: INFO :: Sleeping for a minute
+2018-05-27 21:26:28,895 :: INFO :: Sleeping for a minute
+2018-05-27 21:27:01,493 :: INFO :: Stopping daemon
+2018-05-27 21:28:40,974 :: INFO :: Starting daemon
+2018-05-27 21:28:41,319 :: INFO :: Registering backup task with time condition
+2018-05-27 21:28:41,319 :: INFO :: Registering backup task with time condition
+2018-05-27 21:28:41,321 :: INFO :: Registering backup task with time condition
+2018-05-27 21:28:41,321 :: INFO :: Registering backup task with time condition
+2018-05-27 21:28:41,322 :: INFO :: Registering backup task with time condition
+2018-05-27 21:28:41,322 :: INFO :: Registering backup task with time condition
+2018-05-27 21:28:41,324 :: INFO :: Backuping logger.py to backupDir/logger.py
+2018-05-27 21:28:41,324 :: INFO :: Backuping logger.py to backupDir/logger.py
+2018-05-27 21:28:41,325 :: DEBUG :: Copying logger.py file to backupDir/logger.py
+2018-05-27 21:28:41,325 :: DEBUG :: Copying logger.py file to backupDir/logger.py
+2018-05-27 21:28:41,327 :: DEBUG :: Copy of logger.py to backupDir/logger.py done
+2018-05-27 21:28:41,327 :: DEBUG :: Copy of logger.py to backupDir/logger.py done
+2018-05-27 21:28:41,328 :: INFO :: Backuping test_direct_backup.eb to backupDir/direct_backup.eb
+2018-05-27 21:28:41,328 :: INFO :: Backuping test_direct_backup.eb to backupDir/direct_backup.eb
+2018-05-27 21:28:41,329 :: DEBUG :: Copying test_direct_backup.eb file to backupDir/direct_backup.eb
+2018-05-27 21:28:41,329 :: DEBUG :: Copying test_direct_backup.eb file to backupDir/direct_backup.eb
+2018-05-27 21:28:41,331 :: DEBUG :: Copy of test_direct_backup.eb to backupDir/direct_backup.eb done
+2018-05-27 21:28:41,331 :: DEBUG :: Copy of test_direct_backup.eb to backupDir/direct_backup.eb done
+2018-05-27 21:28:41,332 :: INFO :: Backuping test_repeting_backup.eb to backupDir/repeting_backup.eb
+2018-05-27 21:28:41,332 :: INFO :: Backuping test_repeting_backup.eb to backupDir/repeting_backup.eb
+2018-05-27 21:28:41,334 :: DEBUG :: Copying test_repeting_backup.eb file to backupDir/repeting_backup.eb
+2018-05-27 21:28:41,334 :: DEBUG :: Copying test_repeting_backup.eb file to backupDir/repeting_backup.eb
+2018-05-27 21:28:41,335 :: DEBUG :: Copy of test_repeting_backup.eb to backupDir/repeting_backup.eb done
+2018-05-27 21:28:41,335 :: DEBUG :: Copy of test_repeting_backup.eb to backupDir/repeting_backup.eb done
+2018-05-27 21:28:41,336 :: INFO :: Sleeping for a minute
+2018-05-27 21:28:41,336 :: INFO :: Sleeping for a minute
+2018-05-27 21:28:47,995 :: INFO :: Stopping daemon
+2018-05-27 21:30:38,764 :: INFO :: Starting daemon
+2018-05-27 21:30:39,114 :: INFO :: Registering backup task with time condition
+2018-05-27 21:30:39,114 :: INFO :: Registering backup task with time condition
+2018-05-27 21:30:39,116 :: INFO :: Registering backup task with time condition
+2018-05-27 21:30:39,116 :: INFO :: Registering backup task with time condition
+2018-05-27 21:30:39,117 :: INFO :: Registering backup task with time condition
+2018-05-27 21:30:39,117 :: INFO :: Registering backup task with time condition
+2018-05-27 21:30:39,119 :: INFO :: Backuping logger.py to backupDir/logger.py
+2018-05-27 21:30:39,119 :: INFO :: Backuping logger.py to backupDir/logger.py
+2018-05-27 21:30:39,120 :: DEBUG :: Copying logger.py file to backupDir/logger.py
+2018-05-27 21:30:39,120 :: DEBUG :: Copying logger.py file to backupDir/logger.py
+2018-05-27 21:30:39,257 :: DEBUG :: Copy of logger.py to backupDir/logger.py done
+2018-05-27 21:30:39,257 :: DEBUG :: Copy of logger.py to backupDir/logger.py done
+2018-05-27 21:30:39,259 :: INFO :: Backuping test_direct_backup.eb to backupDir/direct_backup.eb
+2018-05-27 21:30:39,259 :: INFO :: Backuping test_direct_backup.eb to backupDir/direct_backup.eb
+2018-05-27 21:30:39,261 :: DEBUG :: Copying test_direct_backup.eb file to backupDir/direct_backup.eb
+2018-05-27 21:30:39,261 :: DEBUG :: Copying test_direct_backup.eb file to backupDir/direct_backup.eb
+2018-05-27 21:30:39,264 :: DEBUG :: Copy of test_direct_backup.eb to backupDir/direct_backup.eb done
+2018-05-27 21:30:39,264 :: DEBUG :: Copy of test_direct_backup.eb to backupDir/direct_backup.eb done
+2018-05-27 21:30:39,265 :: INFO :: Backuping test_repeting_backup.eb to backupDir/repeting_backup.eb
+2018-05-27 21:30:39,265 :: INFO :: Backuping test_repeting_backup.eb to backupDir/repeting_backup.eb
+2018-05-27 21:30:39,267 :: DEBUG :: Copying test_repeting_backup.eb file to backupDir/repeting_backup.eb
+2018-05-27 21:30:39,267 :: DEBUG :: Copying test_repeting_backup.eb file to backupDir/repeting_backup.eb
+2018-05-27 21:30:39,269 :: DEBUG :: Copy of test_repeting_backup.eb to backupDir/repeting_backup.eb done
+2018-05-27 21:30:39,269 :: DEBUG :: Copy of test_repeting_backup.eb to backupDir/repeting_backup.eb done
+2018-05-27 21:30:39,270 :: INFO :: Sleeping for a minute
+2018-05-27 21:30:39,270 :: INFO :: Sleeping for a minute
+2018-05-27 21:30:47,335 :: INFO :: Stopping daemon
+2018-05-27 21:33:15,170 :: INFO :: Stopping daemon
+2018-05-27 21:33:18,323 :: INFO :: Starting daemon
+2018-05-27 21:33:18,684 :: INFO :: Registering backup task with time condition
+2018-05-27 21:33:18,684 :: INFO :: Registering backup task with time condition
+2018-05-27 21:33:18,686 :: INFO :: Registering backup task with time condition
+2018-05-27 21:33:18,686 :: INFO :: Registering backup task with time condition
+2018-05-27 21:33:18,687 :: INFO :: Registering backup task with time condition
+2018-05-27 21:33:18,687 :: INFO :: Registering backup task with time condition
+2018-05-27 21:33:18,689 :: INFO :: Backuping logger.py to backupDir/logger.py
+2018-05-27 21:33:18,689 :: INFO :: Backuping logger.py to backupDir/logger.py
+2018-05-27 21:33:18,690 :: DEBUG :: Copying logger.py file to backupDir/logger.py
+2018-05-27 21:33:18,690 :: DEBUG :: Copying logger.py file to backupDir/logger.py
+2018-05-27 21:33:18,695 :: DEBUG :: Copy of logger.py to backupDir/logger.py done
+2018-05-27 21:33:18,695 :: DEBUG :: Copy of logger.py to backupDir/logger.py done
+2018-05-27 21:33:18,696 :: INFO :: Backuping test_direct_backup.eb to backupDir/direct_backup.eb
+2018-05-27 21:33:18,696 :: INFO :: Backuping test_direct_backup.eb to backupDir/direct_backup.eb
+2018-05-27 21:33:18,698 :: DEBUG :: Copying test_direct_backup.eb file to backupDir/direct_backup.eb
+2018-05-27 21:33:18,698 :: DEBUG :: Copying test_direct_backup.eb file to backupDir/direct_backup.eb
+2018-05-27 21:33:18,700 :: DEBUG :: Copy of test_direct_backup.eb to backupDir/direct_backup.eb done
+2018-05-27 21:33:18,700 :: DEBUG :: Copy of test_direct_backup.eb to backupDir/direct_backup.eb done
+2018-05-27 21:33:18,701 :: INFO :: Backuping test_repeting_backup.eb to backupDir/repeting_backup.eb
+2018-05-27 21:33:18,701 :: INFO :: Backuping test_repeting_backup.eb to backupDir/repeting_backup.eb
+2018-05-27 21:33:18,702 :: DEBUG :: Copying test_repeting_backup.eb file to backupDir/repeting_backup.eb
+2018-05-27 21:33:18,702 :: DEBUG :: Copying test_repeting_backup.eb file to backupDir/repeting_backup.eb
+2018-05-27 21:33:18,704 :: DEBUG :: Copy of test_repeting_backup.eb to backupDir/repeting_backup.eb done
+2018-05-27 21:33:18,704 :: DEBUG :: Copy of test_repeting_backup.eb to backupDir/repeting_backup.eb done
+2018-05-27 21:33:18,705 :: INFO :: Sleeping for a minute
+2018-05-27 21:33:18,705 :: INFO :: Sleeping for a minute
+2018-05-27 21:34:18,707 :: INFO :: Backuping logger.py to backupDir/logger.py
+2018-05-27 21:34:18,707 :: INFO :: Backuping logger.py to backupDir/logger.py
+2018-05-27 21:34:18,712 :: DEBUG :: Copying logger.py file to backupDir/logger.py
+2018-05-27 21:34:18,712 :: DEBUG :: Copying logger.py file to backupDir/logger.py
+2018-05-27 21:34:18,714 :: DEBUG :: Copy of logger.py to backupDir/logger.py done
+2018-05-27 21:34:18,714 :: DEBUG :: Copy of logger.py to backupDir/logger.py done
+2018-05-27 21:34:18,716 :: INFO :: Sleeping for a minute
+2018-05-27 21:34:18,716 :: INFO :: Sleeping for a minute
+2018-05-27 21:35:18,717 :: INFO :: Backuping logger.py to backupDir/logger.py
+2018-05-27 21:35:18,717 :: INFO :: Backuping logger.py to backupDir/logger.py
+2018-05-27 21:35:18,722 :: DEBUG :: Copying logger.py file to backupDir/logger.py
+2018-05-27 21:35:18,722 :: DEBUG :: Copying logger.py file to backupDir/logger.py
+2018-05-27 21:35:18,724 :: DEBUG :: Copy of logger.py to backupDir/logger.py done
+2018-05-27 21:35:18,724 :: DEBUG :: Copy of logger.py to backupDir/logger.py done
+2018-05-27 21:35:18,727 :: INFO :: Backuping test_repeting_backup.eb to backupDir/repeting_backup.eb
+2018-05-27 21:35:18,727 :: INFO :: Backuping test_repeting_backup.eb to backupDir/repeting_backup.eb
+2018-05-27 21:35:18,728 :: DEBUG :: Copying test_repeting_backup.eb file to backupDir/repeting_backup.eb
+2018-05-27 21:35:18,728 :: DEBUG :: Copying test_repeting_backup.eb file to backupDir/repeting_backup.eb
+2018-05-27 21:35:18,730 :: DEBUG :: Copy of test_repeting_backup.eb to backupDir/repeting_backup.eb done
+2018-05-27 21:35:18,730 :: DEBUG :: Copy of test_repeting_backup.eb to backupDir/repeting_backup.eb done
+2018-05-27 21:35:18,731 :: INFO :: Sleeping for a minute
+2018-05-27 21:35:18,731 :: INFO :: Sleeping for a minute
+2018-05-27 21:36:18,732 :: INFO :: Backuping logger.py to backupDir/logger.py
+2018-05-27 21:36:18,732 :: INFO :: Backuping logger.py to backupDir/logger.py
+2018-05-27 21:36:18,739 :: DEBUG :: Copying logger.py file to backupDir/logger.py
+2018-05-27 21:36:18,739 :: DEBUG :: Copying logger.py file to backupDir/logger.py
+2018-05-27 21:36:18,742 :: DEBUG :: Copy of logger.py to backupDir/logger.py done
+2018-05-27 21:36:18,742 :: DEBUG :: Copy of logger.py to backupDir/logger.py done
+2018-05-27 21:36:18,744 :: INFO :: Sleeping for a minute
+2018-05-27 21:36:18,744 :: INFO :: Sleeping for a minute
+2018-05-27 21:37:11,245 :: INFO :: Stopping daemon
+2018-05-27 21:37:15,060 :: INFO :: Starting daemon
+2018-05-27 21:37:15,404 :: INFO :: Registering backup task with time condition
+2018-05-27 21:37:15,406 :: INFO :: Registering backup task with time condition
+2018-05-27 21:37:15,408 :: INFO :: Registering backup task with time condition
+2018-05-27 21:37:15,409 :: INFO :: Backuping logger.py to backupDir/logger.py
+2018-05-27 21:37:15,410 :: DEBUG :: Copying logger.py file to backupDir/logger.py
+2018-05-27 21:37:15,412 :: DEBUG :: Copy of logger.py to backupDir/logger.py done
+2018-05-27 21:37:15,413 :: INFO :: Backuping test_direct_backup.eb to backupDir/direct_backup.eb
+2018-05-27 21:37:15,414 :: DEBUG :: Copying test_direct_backup.eb file to backupDir/direct_backup.eb
+2018-05-27 21:37:15,415 :: DEBUG :: Copy of test_direct_backup.eb to backupDir/direct_backup.eb done
+2018-05-27 21:37:15,416 :: INFO :: Backuping test_repeting_backup.eb to backupDir/repeting_backup.eb
+2018-05-27 21:37:15,417 :: DEBUG :: Copying test_repeting_backup.eb file to backupDir/repeting_backup.eb
+2018-05-27 21:37:15,418 :: DEBUG :: Copy of test_repeting_backup.eb to backupDir/repeting_backup.eb done
+2018-05-27 21:37:15,419 :: INFO :: Sleeping for a minute
+2018-05-27 21:37:44,627 :: INFO :: Stopping daemon
