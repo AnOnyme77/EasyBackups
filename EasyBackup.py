@@ -1,12 +1,17 @@
+from multiprocessing import Lock
+
 from lark import Lark
 import abc
 import os
 import shutil
 import datetime
 import time
+from watchdog.observers import Observer
+from watchdog.events import FileSystemEventHandler, FileModifiedEvent
 from daemon import Daemon
 import argparse
 import logger
+import atexit
 
 log = logger.logger()
 
@@ -22,11 +27,19 @@ test = """
 backup parser.py to lol.py : every 2 minutes
 """
 
+test2 = """
+backup parser.py to lol.py : on every change
+"""
+
 
 class BackupTask(metaclass=abc.ABCMeta):
 
+    def __init__(self):
+        self._lock = Lock()
+
     def backup_file(self):
-        self._run_backup()
+        with self._lock:
+            self._run_backup()
 
     @abc.abstractmethod
     def _run_backup(self):
@@ -36,6 +49,8 @@ class BackupTask(metaclass=abc.ABCMeta):
 class DirectBackupTask(BackupTask):
 
     def __init__(self, source, destination):
+        super().__init__()
+
         self._source = source
         self._destination = destination
 
@@ -62,6 +77,8 @@ class DirectBackupTask(BackupTask):
 class TimeConditionedBackup(BackupTask):
 
     def __init__(self, source, destination, time_condition_lambda):
+        super().__init__()
+
         assert callable(time_condition_lambda)
 
         self._creation_date = datetime.datetime.now()
@@ -71,6 +88,46 @@ class TimeConditionedBackup(BackupTask):
     def _run_backup(self):
         if self._time_condition(self._creation_date):
             self._backup_task.backup_file()
+
+
+class EveryChangeBackup(FileSystemEventHandler, BackupTask):
+
+    def __init__(self, source, destination):
+        super().__init__()
+
+        assert os.path.exists(source)
+
+        self._source = os.path.abspath(source)
+        self._creation_date = datetime.datetime.now()
+        self._backup_task = DirectBackupTask(source, destination)
+        self._observer = Observer()
+        
+        self._launch_watcher()
+
+    def stop(self):
+        log.info("Stopping EveryChangeBackup observer")
+        self._observer.stop()
+        self._observer.join()
+
+    def on_modified(self, event):
+        if isinstance(event, FileModifiedEvent):
+            if event.src_path == self._source:
+                self.backup_file()
+
+    def _run_backup(self):
+        self._backup_task.backup_file()
+
+    def _launch_watcher(self):
+
+        path = self._source
+        if os.path.isfile(self._source):
+            path = os.path.dirname(path) if len(os.path.dirname(path)) > 0 else "."
+
+        event_handler = self
+        self._observer.schedule(event_handler, path=path, recursive=True)
+        self._observer.start()
+
+        atexit.register(self.stop)
 
 
 def every_minutes(nb_minutes):
@@ -121,7 +178,8 @@ class App:
         if len(self._conditional_backups) > 0:
             while True:
                 for backup_task in self._conditional_backups:
-                    backup_task.backup_file()
+                    if isinstance(backup_task, TimeConditionedBackup):
+                        backup_task.backup_file()
                 log.info("Sleeping for a minute")
                 time.sleep(60)
 
@@ -140,7 +198,7 @@ class App:
                 backup_task.backup_file()
             else:
                 time_type_data = inst.children[2]
-                log.info("Registering backup task with time condition")
+                log.info("Registering backup recurring")
                 if time_type_data.data == "avg_time_expresion":
                     time_data = time_type_data.children[0]
                     if time_data.data == "every_nb_minutes":
@@ -161,6 +219,9 @@ class App:
                     time_data_hour = int(time_type_data.children[0].value)
                     time_data_minute = int(time_type_data.children[1].value)
                     backup_task = TimeConditionedBackup(source, destination, specific_time(time_data_hour, time_data_minute))
+                    self._conditional_backups.append(backup_task)
+                elif time_type_data.data == "change_expression":
+                    backup_task = EveryChangeBackup(source, destination)
                     self._conditional_backups.append(backup_task)
 
 

@@ -1,0 +1,5 @@
+backup logger.py :to: backupDir/logger.py : every minute
+backup test_direct_backup.eb :to: backupDir/direct_backup.eb : every hour
+backup test_repeting_backup.eb :to: backupDir/repeting_backup.eb : every 2 minutes
+backup daemon.py :to: backupDir/laurent.py
+backup lol.txt :to: backupDir/lol.txt : on every change
